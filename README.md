@@ -29,7 +29,7 @@ ie(ieVer = '')
 .my-style
   background-color: red
   +ie(7)
-   background: yellow;
+    background: yellow;
 ```
 А на выходе получаем вот это:
 ```css
