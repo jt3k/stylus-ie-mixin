@@ -14,7 +14,7 @@
 ```css
 /* этот стиль будет применён только к ие7 */
 .ie7 .my-style {
-  background: #008000;
+  background: yellow;
 }
 ```
 **3. Чтобы это не вызывало боли, когда мы пишем stylus-код, был сделан очень простой миксин**
@@ -27,9 +27,9 @@ ie(ieVer = '')
 **4. Теперь в stylus-файле мы делаем вот так**
 ```styl
 .my-style
-  background-color: red
+  background-color red
   +ie(7)
-    background: yellow;
+    background yellow
 ```
 А на выходе получаем вот это:
 ```css
