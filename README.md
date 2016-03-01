@@ -1,8 +1,8 @@
 Миксин который добавляет стиль ie
 
 1. Вы каким либо способом вешаете к своему html классы ie и ie<номер версии>
-Мы привыкли это делать вот так:
-```html
+  Мы привыкли это делать вот так:
+    ```html
 <!DOCTYPE html>
 <!--[if (lt IE 7)|(IE 7) ]>    <html xmlns="http://www.w3.org/1999/xhtml" class="ie ie7"> <![endif]-->
 <!--[if IE 8 ]>                <html xmlns="http://www.w3.org/1999/xhtml" class="ie ie8"> <![endif]-->
