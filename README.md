@@ -20,9 +20,9 @@
 **3. Чтобы это не вызывало боли, когда мы пишем stylus-код, был сделан очень простой миксин**
 ```stylus
 ie(ieVer = '')
-  select = selector();
-  /.ie{ieVer} {select}
-    {block}
+  /.ie{ieVer}
+    {selector()}
+      {block}
 ```
 **4. Теперь в stylus-файле мы делаем вот так**
 ```styl
